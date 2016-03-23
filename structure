@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <style>
+   div.column-heading1
+   {
+    width: 300px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+}
+   div.column-heading2
+   {
+    width: 300px;
+    padding: 25px;
+    border: 25px solid red;
+    margin: 25px;
+}
+   div.column-heading3
+   {
+    width: 300px;
+    padding: 25px;
+    border: 25px solid yellow;
+    margin: 25px;
+}
+   div.column-heading4
+   {
+    width: 300px;
+    padding: 25px;
+    border: 25px solid green;
+    margin: 25px;
+}
+   
+ </style>
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700,600italic,700italic,800,800italic"/>
+  
+<link rel="stylesheet" href="https://teach.mozilla.org/vendor/bootstrap/css/bootstrap.min.css"/>
+
+<link rel="stylesheet" href="https://teach.mozilla.org/styles.css"/>
+  
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $("togglelink1").click(function(){
+        $("x1").toggle();
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("togglelink2").click(function(){
+        $("x2").toggle();
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("togglelink3").click(function(){
+        $("x3").toggle();
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("togglelink4").click(function(){
+        $("x4").toggle();
+    });
+});
+</script>
+</head>
+<body>
+
+<table>
+  <tr>
+    <td colspan="4" align="center">
+<h1>simple<i>motion</i></h1></br>
+  </td>
+
+  </tr>
+ 
+<div class="row web-maps">
+  
+  <tr>
+    <td>
+<div class="column-heading1">
+  
+
+<togglelink1><h2>Technology</h2></togglelink1>
+  
+
+<div class="web-map-contents">
+
+
+<div class="expand-div">
+<h4 tabindex="0" ><x1>simple<i>controller</i></x1></h4>
+</div>
+
+
+
+<div class="expand-div">
+<h4 tabindex="0"><x1>simple<i>hydraulic</i></x1></h4>
+</div>
+
+
+
+<div class="expand-div">
+<h4 tabindex="0"><x1>simple<i>hoist</i></x1></h4>
+</div>
+
+
+
+<div class="expand-div">
+<h4 class="expander-header" tabindex="0"><x1>simple<i>console</i></x1></h4>
+</div>
+
+
+
+</div>
+</div>
+    </td>
+ 
+    <td>
+
+<div class="column-heading2">
+
+  
+<togglelink2><h2>Engineering</h2></togglelink2>
+
+<div class="web-map-contents">
+
+
+<div class="expand-div">
+<h4 tabindex="0"><x2>simple<i>solutions</i></x2></h4>
+</div>
+
+
+
+<div class="expand-div">
+<h4 tabindex="0"><x2>simple<i>certification</i></x2></h4>
+</div>
+
+
+
+<div class="expand-div">
+<h4 tabindex="0"><x2>simple<i>modelling</i></x2></h4>
+</div>
+
+
+
+<div class="expand-div">
+<h4 tabindex="0"><x2>simple<i>drafting</i></x2></h4>
+</div>
+
+
+</div>
+</div>
+    </td>
+  
+    <td>
+
+<div class="column-heading3">
+
+<togglelink3><h2>Design</h2></togglelink3>
+
+<div class="web-map-contents">
+
+
+<div class="expand-div">
+<h4 tabindex="0" ><x3>simple<i>websites</i></x2></h4>
+</div>
+
+
+
+<div class="expand-div">
+<h4 tabindex="0"><x3>simple<i>social</i></x2></h4>
+</div>
+
+
+
+<div class="expand-div">
+<h4 tabindex="0"><x3>simple<i>spaces</i></x2></h4>
+</div>
+
+
+
+<div class="expand-div">
+<h4 tabindex="0"><x3>simple<i>sculpture</i></x2></h4>
+</div>
+
+
+</div>
+</div>
+      
+    </td>
+  
+    <td>
+
+<div class="column-heading4">
+
+<togglelink4><h2>Events</h2></togglelink4>
+
+<div class="web-map-contents">
+
+
+<div class="expand-div">
+<h4 tabindex="0"><x4>simple<i>events</i></x4></h4>
+</div>
+
+
+
+<div class="expand-div">
+<h4 tabindex="0"><x4>simple<i>theatre</i></x4></h4>
+</div>
+
+
+
+<div class="expand-div">
+<h4 tabindex="0"><x4>simple<i>ceremonies</i></x4></h4>
+</div>
+
+
+
+<div class="expand-div">
+<h4 tabindex="0"><x4>simple<i>corporate</i></x4></h4>
+</div>
+
+
+</div>
+</div>
+      
+      </td>
+  </tr>
+
+</div>
+  </table>
+
+</body>
+</html>
